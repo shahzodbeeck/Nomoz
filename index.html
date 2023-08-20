@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namoz Vaqtlari</title>
+    <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="back-noise"></div>
+
+    <div class="wrapper">
+      <h1 class="title">Namoz Vaqtlari</h1>
+      <div class="line"></div>
+
+      <section class="select-region">
+        <h2 class="region-title">Hududni tanlang:</h2>
+        <header>
+          <div class="accordion">
+            <strong id="region">Toshkent</strong>
+            <span id="toggle">
+              <i class="fa-sharp fa-solid fa-chevron-down"></i>
+            </span>
+          </div>
+          <ul class="panel">
+            <li>Andijon</li>
+            <li>Buxoro</li>
+            <li>Farg'оna</li>
+            <li>Guliston</li>
+            <li>Jizzax</li>
+            <li>Namangan</li>
+            <li>Navoiy</li>
+            <li>Nukus</li>
+            <li>Qarshi</li>
+            <li>Samarqand</li>
+            <li>Termiz</li>
+            <li>Toshkent</li>
+            <li>Xiva</li>
+          </ul>
+        </header>
+      </section>
+
+      <div class="region-info">
+        <div class="region-name">
+          <p class="region-name__title">Mintaqa:</p>
+          <p class="region-name__selected-city yellow-text">
+            <span id="reg">Toshkent</span> shahri
+          </p>
+        </div>
+
+        <div class="time">
+          <img src="images/calendar.png" alt="calendar" class="calendar-icon">
+          <div class="dates">
+            <p class="yellow-text date">Seshanba, 20-sentabr</p>
+            <p class="date" id="hijri"></p>
+          </div>
+
+          <p class="region-name__title times">
+            <span id="hour">--:--</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- *** CARDS *** -->
+
+      <div class="card-wrapper">
+        <div class="card">
+          <p class="time yellow-text">Tong</p>
+          <img src="images/Tong.png" alt="Tong" class="card-img">
+          <h1 class="pray-time">00:00</h1>
+        </div>
+
+        <div class="card">
+          <p class="time yellow-text">Quyosh</p>
+          <img src="images/Quyosh.png" alt="quyosh" class="card-img">
+          <h1 class="pray-time">00:00</h1>
+        </div>
+
+        <div class="card">
+          <p class="time yellow-text">Peshin</p>
+          <img src="images/Peshin.png" alt="Peshin" class="card-img">
+          <h1 class="pray-time">00:00</h1>
+        </div>
+
+        <div class="card">
+          <p class="time yellow-text">Asr</p>
+          <img src="images/Asr.png" alt="Asr" class="card-img">
+          <h1 class="pray-time">00:00</h1>
+        </div>
+
+        <div class="card">
+          <p class="time yellow-text">Shom</p>
+          <img src="images/Shom.png" alt="Shom" class="card-img">
+          <h1 class="pray-time">00:00</h1>
+        </div>
+
+        <div class="card">
+          <p class="time yellow-text">Xufton</p>
+          <img src="images/Xufton.png" alt="Xufton" class="card-img">
+          <h1 class="pray-time">00:00</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/hijri-date-latest.js" type="text/javascript"></script>
+    <script src="js/app.js"></script>
+  
+
+</body></html>
